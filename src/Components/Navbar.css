@@ -1,0 +1,58 @@
+.active {
+    border-bottom: 1px solid pink;
+  /* background-color: rgba(255, 192, 203, 0.629);
+  border-radius: 20px; */
+}
+
+.Navbar {
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px 20px 0px;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+}
+
+.Navbar ul a {
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  line-height: 1.5px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.Navbar ul a:not(.active):hover {
+color: black;
+  background-color: pink;
+  transition: 0.3s;
+}
+
+.Navbar #Logo {
+  border: 1px solid white;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-weight: 800;
+  letter-spacing: 5px;
+  margin-left: 30px;
+  padding: 0px 10px 0px 0px;
+}
+
+.Navbar #Logo:hover {
+    
+  transform: scale(1.1);
+  transition: .3s;
+}
+
+.Navbar #Logo span{
+  background-color: pink;
+  color: black;
+  padding: 0px 0px 0px 10px;
+  margin-right: 10px;
+}
